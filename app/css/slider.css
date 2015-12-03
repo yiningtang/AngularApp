@@ -1,0 +1,63 @@
+*{
+font-family: 'Open Sans', sans-serif;
+}
+.center-grey{
+       /**background:#f2f2f2;**/
+}
+.slider{
+	position: relative;
+	top:0;
+	left:0;
+	padding:5px;
+	width:100%;
+	height:690px;
+	margin-top: 0px;
+}
+.slide{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	text-align: center;
+	
+	
+}
+.slide>img{
+	width:100%;
+	height: 690px;
+}
+.right{
+	position: absolute;
+	top: 40%;
+	right: 20px;
+	z-index: 5;
+}
+.left{
+	z-index: 5;
+	position: absolute;
+	top: 40%;
+	left: 20px;
+}
+
+.arrows img{
+	height: 32px;
+}
+
+h1{
+text-align: center;
+padding: 10px;
+font-size: 40px;
+color: #222;
+}
+ 
+.slide.ng-hide-add, .slide.ng-hide-remove {
+
+}
+ 
+.slide.ng-hide-add.ng-hide-add-active,.slide.ng-hide-remove {
+  opacity:0;
+}
+ 
+.slide.ng-hide-add,.slide.ng-hide-remove.ng-hide-remove-active {
+  opacity:1;
+}

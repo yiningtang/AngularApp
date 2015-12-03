@@ -1,0 +1,246 @@
+.footer-top-area{
+	background:#2D3035;
+}
+.footer-top-container{
+	background:#33363B;
+}
+.footer-top-right-2{}
+.footer-top-left{
+	background:#393C41;
+	overflow: hidden;
+}
+.newsletter-area{
+	background: #ff4f4f none repeat scroll 0 0;
+	display: block;
+	margin-top: 50px;
+	padding: 20px;
+}
+.newsletter-area h2{
+	border-bottom: 2px solid #fff;
+	display: block;
+	padding-bottom: 15px;
+}
+.about-us-area h2, .fllow-us-area h2, .newsletter-area h2{
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	text-transform:uppercase;
+	margin: 0 0 13px;
+}
+.newsletter-area p, .about-us-area p{
+	color:#fff;
+	margin:0 0 10px;
+	font-size:12px;
+	line-height:18px;
+}
+.newsletter-form-group{}
+.newsletter-form{
+	border-radius:0px;
+	border:none;
+	background:#FBFBFB;
+	padding:6px;
+	font-size:13px;
+}
+.newsletter-btn{
+	background: #636363 none repeat scroll 0 0;
+	border: 0 none;
+	color: #fff;
+	font-size:14px;
+	line-height:35px;
+	font-family: 'Bitter', serif;
+	margin-top: 10px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+}
+.newsletter-form-group .newsletter-form:focus, .newsletter-form-group .newsletter-form:active{
+	box-shadow:none;
+	border:none;
+	outline: 0 none;
+}
+.newsletter-btn:hover{
+	background:#3A3D42;
+}
+.about-us-area, .fllow-us-area{
+	margin-top:30px;
+	padding:0 20px;
+}
+.about-us-area p{
+	color:#fff;
+}
+.fllow-us-area{}
+.fllow-us-area h2{
+	margin: 0 0 5px;
+}
+.flow-us-link{
+	overflow: hidden;
+	padding-bottom: 50px;	
+}
+.flow-us-link li{
+	float: left;
+}
+.flow-us-link li a{
+	border: 1px solid #a3a3a3;
+	border-radius: 100%;
+	color: #a3a3a3;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 38px;
+	margin: 10px 10px 0 0;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+.flow-us-link li a:hover{
+	background:#FF4F4F;
+	color:#fff;
+	border: 1px solid #FF4F4F;
+}
+.footer-top-right-1{
+	border-bottom:1px solid #555555;
+	padding-bottom:34px;
+}
+.footer-top-right-1 p{
+	margin:0;
+}
+.footer-top-right-1 h2{
+	border-bottom: 1px solid #555;
+	color: #fff;
+	font-size:18px;
+	line-height:22px;
+	margin: 0 0 30px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.staticblock, .Store-Information, .google-map{
+	margin-top:50px;
+}
+.staticblock p{
+	color: #fff;
+	font-size:12px;
+	line-height:18px;
+}	
+.Store-Information{}
+.Store-Information ul{}
+.Store-Information ul li{
+	display: block;
+	overflow: hidden;	
+	padding-bottom:20px;
+}
+.info-lefticon{
+	float:left;
+}
+.info-lefticon i{
+	border: 2px solid #747474;
+	border-radius: 100%;
+	color: #747474;
+	float: left;
+	font-size: 15px;
+	height: 36px;
+	line-height: 32px;
+	margin-right: 10px;
+	text-align: center;
+	width: 36px;
+}
+.fa-map-marker{}
+.info-text{}
+
+.info-text p{
+	color: #fff;
+	font-size:12px;
+	line-height:18px;
+	margin:0;
+}
+.call-lh p{
+	line-height:36px;
+}
+.info-text p a{
+	transition: all 0.3s ease 0s;
+	color: #fff;
+	display: block;
+	font-size:12px;
+	line-height:20px;
+	text-transform: capitalize;
+}
+.info-text p a i{
+	margin-right:7px;
+}
+.info-text p a:hover{
+	color:#FF4F4F;
+}
+.fa-angle-double-right{}
+.google-map-area{
+	height:150px;
+	width:100%;
+}
+.google-map{}
+.footer-top-right-2{}
+.footer-top-right-2 h2{
+	font-size:18px;
+	line-height:22px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 0 10px;
+}
+.fotter-menu-widget{
+	margin-top:50px;
+}
+.single-f-widget{}
+.single-f-widget ul{
+	margin-bottom:9px;
+}
+.single-f-widget ul li{
+}
+.single-f-widget ul li a{
+	color: #fff;
+	display: block;
+	font-size:12px;
+	line-height:24px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+	padding-left:20px;
+	position:relative;
+}
+.single-f-widget ul li a:before{
+	position:absolute;
+	top:0;
+	left:0;
+	line-height:23px;
+	content:"";
+	font-family:fontawesome;
+}
+.single-f-widget ul li a:hover{
+	color:#FF4F4F;
+}
+.single-f-widget ul li a i{
+	display:none;
+}
+.payment-method{
+	float: right;
+	overflow: hidden;
+	padding: 15px;
+}
+/*-----------------------
+9.2 footer bottom
+-------------------------*/
+.copyright-area{
+	border-top:1px solid #484a4f;
+	background:#2D3035;
+	padding:20px 0;
+}
+.copy-right{}
+.copy-right address{
+	margin:0;
+	color: #fff;
+	font-size:12px;
+	line-height:25px;
+	padding:0;
+	text-align:center;
+}
+.copy-right address a{
+	color:#FF4F4F;
+}
+.copy-right address a:hover{
+	color:#fff;
+}
