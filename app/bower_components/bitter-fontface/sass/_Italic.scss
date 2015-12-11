@@ -1,0 +1,8 @@
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Bitter';
+  @include fontdef($BitterPath, "Italic");
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */

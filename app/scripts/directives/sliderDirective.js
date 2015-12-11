@@ -21,7 +21,7 @@ app.directive('slider', function ($timeout) {
       scope.images.forEach(function(image){
         image.visible=false;
 
-      });
+        });
       scope.images[scope.currentIndex].visible=true;
     });
     
@@ -29,7 +29,7 @@ app.directive('slider', function ($timeout) {
     
     var timer;
     
-    var autoSlide=function(){
+     var autoSlide=function(){
       timer=$timeout(function(){
         scope.next();
         timer=$timeout(autoSlide,3000);

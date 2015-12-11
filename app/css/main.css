@@ -38,16 +38,14 @@
 
 html, body {
     height: 100%;
+    overflow-x:hidden;
 }
 html * {
-	padding:0;
-	margin:0;
     outline: 0 !important;
 }
 body {
-	margin:0!important;
-	padding:0!important;
-    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-family: 'Open sans',sans-serif;
 	font-weight: 400;
 	font-size: 13px;
@@ -92,7 +90,6 @@ h4 {
 	font-weight: 700;
 }
 .btn {
-	background-color:  #ff4f4f!important;
 	border-radius:1px;
 }
 .wrapper {
@@ -156,11 +153,11 @@ ul.scroll-menu {
 
 /* General button style (reset) */
 .btn {
-	 background-color:  #ff4f4f!important;
+	background:#0bb7b7;
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
-	color: inherit;
+	color: #fff;
 	cursor: pointer;
 	display: inline-block;
 	outline: none;
@@ -192,7 +189,7 @@ ul.scroll-menu {
 	height: 48%;
 	top: 50%;
 	left: 50%;
-	
+	background:#16a7a7; /*#16a7a7;*/
 	opacity: 0;
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -567,11 +564,9 @@ ul.menu-items li.menu-item:last-child {
 }
 /*Cart*/
 .content-count-cart-header {
-	float:right;
+    float: right;
+    position: relative;
     z-index: 99999;
-    position:absolute!important;
-    top:0!important;
-    right:50px!important;
 }
 .content-count-cart-header i {
     color: #21252b;
@@ -600,7 +595,10 @@ ul.menu-items li.menu-item:last-child {
 /** Header Cart **/
 .dropdown-menu.dropdown-prod-cart {
 	border-radius:1px;
+	padding: 7px 15px;
 	width: 280px;
+	left: -100px;
+	margin-top: 24px;
 	border: 1px solid #000;
 }
 .dropdown-prod-cart ul {
@@ -4207,7 +4205,7 @@ to {
 	margin-bottom: 0px;
      -webkit-transition: all 0.6s ease-out;  /* Chrome 1-25, Safari 3.2+ */
      -moz-transition: all 0.6s ease-out;  /* Firefox 4-15 */
-       -o-transition: all 0.6s ease-out;  /* Opera 10.50–12.00 */
+       -o-transition: all 0.6s ease-out;  /* Opera 10.50â€“12.00 */
           transition: all 0.6s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 .onsale-prod {

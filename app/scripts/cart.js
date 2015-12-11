@@ -1,5 +1,3 @@
-/* File Created: January 21, 2015 */
-
 //----------------------------------------------------------------
 // shopping cart
 //
@@ -9,7 +7,7 @@ function shoppingCart(cartName) {
     this.checkoutParameters = {};
     this.items = [];
 
-    // load items from local storage when initializing
+    
     this.loadItems();
 
     // save items to local storage when unloading
@@ -38,7 +36,7 @@ shoppingCart.prototype.loadItems = function () {
             }
         }
         catch (err) {
-            // ignore errors while loading...
+           
         }
     }
 }

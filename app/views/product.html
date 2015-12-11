@@ -12,7 +12,7 @@
                     <li>
                         <a href="#/shop">Shop</a>
                     </li>
-                    <li class="active">Product details</li>
+                    <li class="active">Mobile details</li>
                 </ol>
             </div>
         </div>
@@ -100,14 +100,6 @@
   </li>
   <li>
     <span>Display</span>
- <!--   <dl>
-      <dt>Screen size</dt>
-      <dd>{{phone.display.screenSize}}</dd>
-      <dt>Screen resolution</dt>
-      <dd>{{phone.display.screenResolution}}</dd>
-      <dt>Touch screen</dt>
-      <dd>{{phone.display.touchScreen | checkmark}}</dd>
-    </dl>-->
   </li>
 
 
@@ -118,18 +110,18 @@
 
              <div class="single-prod-button" style="text-align:center;margin:3em;">
                  <button 
-                    class="btn btn-lg btn-primary" 
+                    class="btn " 
                     ng-click="cart.addItem(product.code, product.name, product.src, product.price, 1)">
                     <i class="icon-shopping-cart icon-white" /> Add to cart
                 </button>
                 <button 
-                    class="btn btn-lg btn-primary" 
+                    class="btn" 
                     ng-click="cart.addItem(product.code, product.name, product.src, product.price, -10000)"
                     ng-disabled="cart.getTotalCount(product.code) < 1">
                     <i class="icon-trash icon-white" /> Remove from cart
                 </button>
                 <button 
-                    class="btn btn-lg btn-primary bt-back" 
+                    class="btn  bt-back" 
                     onclick="window.location.href='#/'">
                     <i class="icon-chevron-left" /> back to store
                 </button>

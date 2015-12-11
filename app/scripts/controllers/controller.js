@@ -40,7 +40,7 @@ var searchMatch = function (haystack, needle) {
         return haystack.toLowerCase().indexOf(needle.toLowerCase()) !== -1;
     };
     $scope.store.myFilter = function (column, category) {
-      alert("he");
+     
         $scope.store.filteredItems = $filter('filter')(data, function (product) {
             for (var attr in product) {
                 if (searchMatch(product[column], category))
@@ -49,15 +49,15 @@ var searchMatch = function (haystack, needle) {
             return false;
         });
         $scope.store.currentPage = 0;
-        alert($scope.store.filteredItems.length);
+       
         groupPages($scope.store.filteredItems);
     };
     $scope.store.search = function (name) {
-      //alert($scope.store.query);
+     
         $scope.store.filteredItems = $filter('filter')(data, function (product) {
             for (var attr in product) {
                 if (searchMatch(product[name], $scope.store.query))
-                 // alert(product[name]);
+                
                     return true;
             }
             return false;
@@ -66,74 +66,20 @@ var searchMatch = function (haystack, needle) {
         alert($scope.store.filteredItems.length);
 
         $scope.store.currentPage = 0;
-        //console.log();
+        
        groupPages($scope.store.filteredItems);
     };
 
 
     });
 
-    /*var searchMatch = function (haystack, needle) {
-        if (!needle) {
-            return true;
-        }
-        return haystack.toLowerCase().indexOf(needle.toLowerCase()) !== -1;
-    };
-    $scope.store.search = function (name) {
-      //alert('name');
-        $scope.store.filteredItems = $filter('filter')(DataService.store.products_sound, function (product) {
-            for (var attr in product) {
-                if (searchMatch(product[name], $scope.query))
-                    return true;
-            }
-            return false;
-        });
-        $scope.store.currentPage = 0;
-        $scope.store.groupToPages();
-    };
-    $scope.store.myFilter = function (column, category) {
-        $scope.store.filteredItems = $filter('filter')(DataService.store.products_sound, function (product) {
-            for (var attr in product) {
-                if (searchMatch(product[column], category))
-                    return true;
-            }
-            return false;
-        });
-        $scope.store.currentPage = 0;
-        $scope.store.groupToPages();
-    };
-    $scope.store.groupToPages = function () {
-        $scope.store.pagedItems = [];
+   
 
-        for (var i = 0; i < $scope.store.filteredItems.length; i++) {
-            if (i % $scope.store.pageSize === 0) {
-                $scope.store.pagedItems[Math.floor(i / $scope.store.pageSize)] = [$scope.store.filteredItems[i]];
-            } else {
-                $scope.store.pagedItems[Math.floor(i / $scope.store.pageSize)].push($scope.store.filteredItems[i]);
-            }
-        }
-    };
-    // functions have been describe process the data for display
-    $scope.store.myFilter();
-    $scope.store.search();*/
-
-
-
-/* CONTROLLER PAGINATION FILTER FOR DRESS SHOP */
-
-
-
-
-   /** if ($stateParams.productCode != null) {
-        $scope.product = $scope.store.getProduct($stateParams.productCode);
-        $scope.detail = $scope.detailsprod.getDetail($stateParams.productCode);
-    }
-**/
     
 });
 
 app.controller('storeController_sound', function ($scope, DataService,GetData,$stateParams) {
-//alert($stateParams.productCode);
+
 console.log($stateParams.id);
     $scope.setImage = function(imageUrl) {
       $scope.mainImageUrl = imageUrl; 

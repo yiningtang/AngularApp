@@ -22,6 +22,7 @@
     <link href="css/css/style1.css" rel="stylesheet" type="text/css" />
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link href="css/component_black.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bitter-fontface/bitter.css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/slider.css" rel="stylesheet" type="text/css" />
     <link href="css/css/app.css" rel="stylesheet" type="text/css" />
@@ -34,7 +35,7 @@
 
     <!-- Add your site or application content here -->
     
-    <!--<div ng-include='"templates/header.html"'></div>-->
+    <div ng-include='"templates/header.html"'></div>
     <div ui-view>
     <div ui-sref='home'></div>
     </div>
@@ -44,17 +45,6 @@
    
 
  
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
