@@ -28,7 +28,7 @@
 				        <li ng-click="store.myFilter('category', 'motorola')" >MOTOROLA</li> 
 				        <li ng-click="store.myFilter('category', 'samsung')" >SAMSUNG</li> 
 				        <li ng-click="store.myFilter('category','apple')" >APPLE</li> 
-				        <li ng-click="store.myFilter ('category', 'lg')" >LG</li> 
+				        <li ng-click="store.myFilter ('category', 'dell')" >DELL</li> 
 			        </ul> 
 	            </div>
                 
@@ -38,7 +38,7 @@
                 </div>
         </div> 
             <!--List Product-->
-            <div id="cbp-vm" class="shop-prod">
+            <div id="cbp-vm" class="shop-prod" style="z-index:999;">
                         <ul id="product" class="nav-pills nav-stacked rectangle-list">
                             <li class="col-md-4 my-shop-animation" ng-repeat='product in store.pagedItems[store.currentPage]'  >
                                 <div class="shop-img {{product.class}}">
@@ -98,7 +98,7 @@
     <div class="row">
 
         <div class="col-lg-12">
-            <h2 class="page-header">Our Clients</h2>
+            
         </div>
 
         <div class="col-md-2 col-sm-4 col-xs-6">

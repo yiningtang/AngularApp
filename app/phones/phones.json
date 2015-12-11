@@ -14,7 +14,7 @@
         "imageUrl": "img/phones/motorola-xoom.0.jpg", 
         "name": "MOTOROLA XOOM\u2122", 
         "price":1100,
-        "category":"samsung",
+        "category":"motorola",
         "snippet": "The Next, Next Generation\n\nExperience the future with MOTOROLA XOOM, the world's first tablet powered by Android 3.0 (Honeycomb)."
     }, 
     {
@@ -33,7 +33,7 @@
         "imageUrl": "img/phones/dell-streak-7.0.jpg", 
         "name": "Dell Streak 777", 
         "price":1110,
-        "category":"apple",
+        "category":"dell",
         "snippet": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around."
     }, 
     {
@@ -43,7 +43,7 @@
         "imageUrl": "img/phones/samsung-gem.0.jpg", 
         "name": "Samsung Gem\u2122", 
         "price":900,
-        "category":"motorola",
+        "category":"samsung",
         "snippet": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price."
     }, 
     {

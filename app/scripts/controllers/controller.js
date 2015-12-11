@@ -63,7 +63,7 @@ var searchMatch = function (haystack, needle) {
             return false;
         });
 
-        alert($scope.store.filteredItems.length);
+        
 
         $scope.store.currentPage = 0;
         
